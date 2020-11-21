@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Escra Downloader",
+  "description": "Downloads PDF file from ESCRA",
+  "version": "0.0.1",
+  "icons": {
+    "128": "icon_128.png"
+  },
+  "browser_action": {
+    "default_icon": "images/logo.png",
+    "default_popup": "index.html"
+  },
+  "permissions": ["activeTab", "<all_urls>"]
+}
