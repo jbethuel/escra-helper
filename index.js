@@ -9,7 +9,7 @@ document.getElementById("button").addEventListener("click", () => {
     },
     (results) => {
       const url = results[0];
-      if (!url.length) return;
+      if (!url || !url.length) return;
       chrome.tabs.create({ url });
     }
   );

@@ -10,5 +10,5 @@
     "default_icon": "images/logo.png",
     "default_popup": "index.html"
   },
-  "permissions": ["activeTab", "<all_urls>"]
+  "permissions": ["*://*.central.com.ph/"]
 }
