@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Escra Downloader",
   "description": "Downloads PDF file from ESCRA",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "icons": {
     "128": "icon_128.png"
   },
